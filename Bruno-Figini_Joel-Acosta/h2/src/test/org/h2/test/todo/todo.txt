@@ -80,7 +80,7 @@ Not implemented / not tested:
 Support Model
 -----------------
 Check JBoss and Spring support models
-http://wiki.bonita.ow2.org/xwiki/bin/view/Main/BullOffer
+http://wiki.bonita.ow2.org/xwiki/bin/view/App/BullOffer
 - starting 2500 euros / year
 - unlimited support requests
 - 2 named contacts

@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
-<title>Main xref</title>
+<title>App xref</title>
 <link type="text/css" rel="stylesheet" href="../../../../stylesheet.css" />
 </head>
 <body>
-<div id="overview"><a href="../../../../../apidocs/org/apache/log4j/chainsaw/Main.html">View Javadoc</a></div><pre>
+<div id="overview"><a href="../../../../../apidocs/org/apache/log4j/chainsaw/App.html">View Javadoc</a></div><pre>
 
 <a name="1" href="#1">1</a>   <em class="jxr_comment">/*</em>
 <a name="2" href="#2">2</a>   <em class="jxr_comment"> * Licensed to the Apache Software Foundation (ASF) under one or more</em>
@@ -51,7 +51,7 @@
 <a name="41" href="#41">41</a>  <em class="jxr_javadoccomment"> *</em>
 <a name="42" href="#42">42</a>  <em class="jxr_javadoccomment"> * @author &lt;a href="<a href="mailto:oliver@puppycrawl.com" target="alexandria_uri">mailto:oliver@puppycrawl.com</a>"&gt;Oliver Burn&lt;/a&gt;</em>
 <a name="43" href="#43">43</a>  <em class="jxr_javadoccomment"> */</em>
-<a name="44" href="#44">44</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/apache/log4j/chainsaw/Main.html">Main</a>
+<a name="44" href="#44">44</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/apache/log4j/chainsaw/App.html">App</a>
 <a name="45" href="#45">45</a>      <strong class="jxr_keyword">extends</strong> JFrame
 <a name="46" href="#46">46</a>  {
 <a name="47" href="#47">47</a>      <em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> the default port number to listen on **/</em>
@@ -61,13 +61,13 @@
 <a name="51" href="#51">51</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String PORT_PROP_NAME = <span class="jxr_string">"chainsaw.port"</span>;
 <a name="52" href="#52">52</a>  
 <a name="53" href="#53">53</a>      <em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> use to log messages **/</em>
-<a name="54" href="#54">54</a>      <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> <a href="../../../../org/apache/log4j/Logger.html">Logger</a> LOG = Logger.getLogger(Main.<strong class="jxr_keyword">class</strong>);
+<a name="54" href="#54">54</a>      <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> <a href="../../../../org/apache/log4j/Logger.html">Logger</a> LOG = Logger.getLogger(App.<strong class="jxr_keyword">class</strong>);
 <a name="55" href="#55">55</a>  
 <a name="56" href="#56">56</a>  
 <a name="57" href="#57">57</a>      <em class="jxr_javadoccomment">/**</em>
-<a name="58" href="#58">58</a>  <em class="jxr_javadoccomment">     * Creates a new &lt;code&gt;Main&lt;/code&gt; instance.</em>
+<a name="58" href="#58">58</a>  <em class="jxr_javadoccomment">     * Creates a new &lt;code&gt;com.backend.Main&lt;/code&gt; instance.</em>
 <a name="59" href="#59">59</a>  <em class="jxr_javadoccomment">     */</em>
-<a name="60" href="#60">60</a>      <strong class="jxr_keyword">private</strong> <a href="../../../../org/apache/log4j/chainsaw/Main.html">Main</a>() {
+<a name="60" href="#60">60</a>      <strong class="jxr_keyword">private</strong> <a href="../../../../org/apache/log4j/chainsaw/App.html">App</a>() {
 <a name="61" href="#61">61</a>          <strong class="jxr_keyword">super</strong>(<span class="jxr_string">"CHAINSAW - Log4J Log Viewer"</span>);
 <a name="62" href="#62">62</a>          <em class="jxr_comment">// create the all important model</em>
 <a name="63" href="#63">63</a>          <strong class="jxr_keyword">final</strong> <a href="../../../../org/apache/log4j/chainsaw/MyTableModel.html">MyTableModel</a> model = <strong class="jxr_keyword">new</strong> <a href="../../../../org/apache/log4j/chainsaw/MyTableModel.html">MyTableModel</a>();
@@ -197,7 +197,7 @@
 <a name="187" href="#187">187</a> <em class="jxr_javadoccomment">     */</em>
 <a name="188" href="#188">188</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">void</strong> main(String[] aArgs) {
 <a name="189" href="#189">189</a>         initLog4J();
-<a name="190" href="#190">190</a>         <strong class="jxr_keyword">new</strong> <a href="../../../../org/apache/log4j/chainsaw/Main.html">Main</a>();
+<a name="190" href="#190">190</a>         <strong class="jxr_keyword">new</strong> <a href="../../../../org/apache/log4j/chainsaw/App.html">App</a>();
 <a name="191" href="#191">191</a>     }
 <a name="192" href="#192">192</a> }
 </pre>

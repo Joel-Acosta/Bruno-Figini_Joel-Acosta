@@ -1,6 +1,6 @@
 REM  *****  BASIC  *****
 
-Sub Main
+Sub App
     H2Pdf
 End Sub
 
