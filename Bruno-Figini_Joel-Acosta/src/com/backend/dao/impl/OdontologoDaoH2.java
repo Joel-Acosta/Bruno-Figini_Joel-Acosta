@@ -35,6 +35,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
             }
 
             connection.commit();
+            //no es necesario la llamada al toString(), lo infiere
             LOGGER.info("Odontologo guardado en la base de datos: " + odontologo.toString());
 
 
@@ -79,7 +80,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
                 odontologo = new Odontologo(rs.getInt("id"), rs.getString("matricula"), rs.getString("nombre"), rs.getString("apellido"));
                 listaOdontologo.add(odontologo);
             }
-
+            //nos falto el logger aca
         } catch (Exception e) {
             LOGGER.error(e.getMessage());
             e.printStackTrace();

@@ -3,6 +3,7 @@ import java.sql.DriverManager;
 
 public class App {
     public static void main( String[] args ) {
+        //Excelente chicos!
         Connection connection = null;
         try {
             Class.forName("org.h2.Driver");
